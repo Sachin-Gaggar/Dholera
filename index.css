@@ -92,7 +92,9 @@ box-sizing:border-box;
         .part{
           flex-wrap: wrap;
         }
-
+        #later{
+          width:100%;
+        }
        
       }
       #info{
