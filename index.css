@@ -27,7 +27,7 @@ box-sizing:border-box;
 
 }
 .para{
-  margin-left: 20px;
+  margin-left: px;
 }
 .side {
     padding: 10px 20px;
@@ -41,17 +41,25 @@ box-sizing:border-box;
 .main2{
     padding: 10px 20px;
     background-color: white;
-} 
+}
+.main2{
+  padding: 10px 20px;
+  background-color: white;
+}
+
+
 @media screen and(max-width: 400px){
     .navbar a{
         float:none;
         width:100%;
     }
 }
+
+
 .footer {
     padding:20px;
     text-align: center;
-    background: black;
+    background: whitesmoke;
 }
 
  
@@ -82,9 +90,18 @@ box-sizing:border-box;
         margin-top: 10px;
 
     }
+    #stretch{
+      height: 200px;
+    }
+    #gallimg{
+      margin-left: 10px;
+    }
+    
     @media screen and (max-width: 700px) {
       
-        
+        #later{
+          width:100%;
+        }
         .rounded{
            height: 25%;
             width:100%;
@@ -92,10 +109,12 @@ box-sizing:border-box;
         .part{
           flex-wrap: wrap;
         }
+
         #later{
           width:100%;
-            height: auto;
+          height: auto;
         }
+
        
       }
       #info{
